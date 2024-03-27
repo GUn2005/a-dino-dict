@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Something about Dinoisn't working the way you expect
+about: Something about Dino isn't working the way you expect
 title: ''
 labels: bug
 assignees: adaizaiganma
