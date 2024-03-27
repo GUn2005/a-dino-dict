@@ -17,20 +17,13 @@ const defaultOptions = {
     return node
   },
   sortFn: (a, b) => {
-    // Sort order: folders first, then files. Sort folders and files alphabetically
     if ((!a.file && !b.file) || (a.file && b.file)) {
-      // numeric: true: Whether numeric collation should be used, such that "1" < "2" < "10"
-      // sensitivity: "base": Only strings that differ in base letters compare as unequal. Examples: a ≠ b, a = á, a = A
-      return a.displayName.localeCompare(b.displayName, undefined, {
-        numeric: true,
-        sensitivity: "base",
-      })
+      return a.displayName.localeCompare(b.displayName)
     }
-
     if (a.file && !b.file) {
-      return 1
-    } else {
       return -1
+    } else {
+      return 1
     }
   },
   filterFn: (node) => node.name !== "tags",
