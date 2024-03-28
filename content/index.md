@@ -8,3 +8,5 @@ title: Welcome to A Dino Dict
 看看[[前言]]？  
 
 看看[[目录]]？
+
+[[帮助完善本dict]] 
