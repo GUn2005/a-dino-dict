@@ -1,7 +1,8 @@
 ---
 title: Welcome to A Dino Dict
 ---
-![[banner.jpg]]欢迎来到A Dino Dict！  
+![[og-image.png]]
+欢迎来到A Dino Dict！  
 
 这是一个个人知识库  
 
